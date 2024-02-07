@@ -1,7 +1,6 @@
 package com.codewithHarry.blog.services.impl;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
@@ -20,6 +19,7 @@ public class CategoryServiceImpl implements CategoryService{
 	@Autowired
 	private CategoryRepo categoryRepo;
 	
+	@Autowired
 	private ModelMapper modelMapper;
 	
 	@Override
